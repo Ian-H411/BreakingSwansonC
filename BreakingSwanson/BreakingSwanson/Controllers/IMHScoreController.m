@@ -10,4 +10,17 @@
 
 @implementation IMHScoreController
 
+
++ (void)saveToPersistentStorage:(NSNumber *)highScore
+{
+    NSUserDefaults *userdefaults = [NSUserDefaults standardUserDefaults];
+    [userdefaults setObject: highScore forKey:@"highScore"];
+}
+
++ (NSNumber *)loadToPersistentStorage
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSNumber *highscore = [userDefaults objectForKey:@"highScore"];
+    return highscore;
+}
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2543137E230F2EBA0043886D /* IMHScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543137D230F2EBA0043886D /* IMHScoreController.m */; };
 		25DD441B230DDADB0082AE1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD441A230DDADB0082AE1A /* AppDelegate.m */; };
 		25DD4421230DDADB0082AE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DD441F230DDADB0082AE1A /* Main.storyboard */; };
 		25DD4423230DDADC0082AE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DD4422230DDADC0082AE1A /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2543137C230F2EBA0043886D /* IMHScoreController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMHScoreController.h; sourceTree = "<group>"; };
+		2543137D230F2EBA0043886D /* IMHScoreController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMHScoreController.m; sourceTree = "<group>"; };
 		25DD4416230DDADB0082AE1A /* BreakingSwanson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingSwanson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD4419230DDADB0082AE1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25DD441A230DDADB0082AE1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				25DD4438230DE1BF0082AE1A /* IMHSwansonController.m */,
 				25DD4440230DEEE80082AE1A /* IMHBreakingController.h */,
 				25DD4441230DEEE80082AE1A /* IMHBreakingController.m */,
+				2543137C230F2EBA0043886D /* IMHScoreController.h */,
+				2543137D230F2EBA0043886D /* IMHScoreController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				25DD4429230DDADC0082AE1A /* main.m in Sources */,
 				25DD443C230DE5020082AE1A /* MainViewController.m in Sources */,
 				25DD443F230DECD10082AE1A /* IMHBreakingQuote.m in Sources */,
+				2543137E230F2EBA0043886D /* IMHScoreController.m in Sources */,
 				25DD441B230DDADB0082AE1A /* AppDelegate.m in Sources */,
 				25DD4442230DEEE80082AE1A /* IMHBreakingController.m in Sources */,
 			);

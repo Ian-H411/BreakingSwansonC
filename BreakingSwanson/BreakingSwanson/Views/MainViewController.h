@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "IMHSwansonController.h"
 #import "IMHBreakingController.h"
+#import "IMHScoreController.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MainViewController : UIViewController
@@ -23,13 +24,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)userNeedsToSelectanAnswerAlert;
 
+
 @property (nonatomic) NSString *isRonSwanson;
 
-@property (nonatomic) NSInteger currentScore;
+@property (nonatomic) NSNumber *currentScore;
+
+@property (nonatomic) NSNumber *highScore;
 
 @property (nonatomic, copy) NSString *usersAnswer;
 
 @property (nonatomic) NSString *isQuestionLocked;
+
 
 @end
 
