@@ -17,9 +17,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)checkUsersAnswer:(NSString *)usersanswer;
 
+-(void)correctAnswerAlert;
+
+-(void)incorrectAnswerAlert;
+
+-(void)userNeedsToSelectanAnswerAlert;
+
 @property (nonatomic) NSString *isRonSwanson;
 
 @property (nonatomic) NSInteger currentScore;
+
+@property (nonatomic, copy) NSString *usersAnswer;
+
+@property (nonatomic) NSString *isQuestionLocked;
 
 @end
 
